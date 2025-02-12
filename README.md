@@ -35,16 +35,10 @@ Other Functional Pins
 ALE/PROG: Address Latch Enable, used during external memory access.
 PSEN: Program Store Enable, for external memory execution.
 EA/VPP: External Access Enable, determines internal/external memory execution.
-Schematic Design
 
-The circuitry and architecture of the digital stopwatch are based on a microcontroller-driven seven-segment LED display. The design involves:
 
-Microcontroller Unit (AT89C51)
-Seven-Segment LED Display
-Push-Button Interface for Start/Stop Control
-Clock Oscillator for Timing
-Power Supply & PCB Layout
-Schematic Diagram
+![Schematic Design](controller.jpg)
+
 
 
 Project Implementation
